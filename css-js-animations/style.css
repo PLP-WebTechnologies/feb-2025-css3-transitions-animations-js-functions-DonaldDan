@@ -1,0 +1,50 @@
+/* General body and header styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #333;
+  }
+  
+  /* Button animation */
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Image animation */
+  #animateImage {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 1s ease;
+  }
+  
+  #animateImage.animate {
+    transform: scale(1.2);
+  }
+  
+  /* Color input section */
+  section {
+    margin-top: 30px;
+  }
+  
+  /* Smooth background transition for the body */
+  body {
+    transition: background-color 1s ease;
+  }
+  
